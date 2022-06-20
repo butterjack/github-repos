@@ -9,6 +9,7 @@ import Icon from "../components/Icon";
 import SearchBar from "../components/SearchBar";
 import "../assets/css/LandingPage.css"
 import Button from "../components/Button";
+import Loader from "../components/Loader";
 
 function LandingPage() {
     const [repositories, setRepositories] = useState<RepositoryModel[]>([]);
@@ -114,7 +115,7 @@ function LandingPage() {
                     </div>
                     :
                     <div className="alert alert-dark align-self-center m-auto" role="alert">
-                        {!isLoading ? "Give your desired github username to browse his repositories" : "loading"}
+                        {!isLoading ? "Give your desired github username to browse his repositories" : <Loader></Loader>}
                     </div>
                 }
 

@@ -3,7 +3,7 @@ import Repository from "../../components/Repository";
 
 test("renders card and modal on click", async () => {
   const repo = {
-    updated_at: new Date(),
+    updatedAt: new Date(),
     name: "name",
     owner: {
       login: "login",
