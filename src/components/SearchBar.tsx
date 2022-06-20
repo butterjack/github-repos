@@ -16,11 +16,17 @@ function SearchBar(props: any) {
             setRepositories(res.user.repositories.nodes);
             props.handleRepos(res.user.repositories.nodes);
             if (!res.user.repositories.nodes.length) {
-
+                MySwal.fire({
+                    icon: 'warning',
+                    text:'User has no repositories',
+                    timer: 2500,
+                    timerProgressBar: true,
+                })
             }
                 
         })
-        .catch(() =>{
+        .catch((error) =>{
+            console.log(error)
             MySwal.fire({
                 icon: 'error',
                 title: 'Oops...',

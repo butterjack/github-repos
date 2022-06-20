@@ -7,7 +7,7 @@ class GithubService {
    * @param {string} username the username of the demanded user
    */
   public static getRepositories(username: string) {
-    const accessToken = process.env.ACCESS_TOKEN;
+    const accessToken = process.env.REACT_APP_ACCESS_TOKEN;
     const query = `
     query { 
         user(login:"${username}") {
