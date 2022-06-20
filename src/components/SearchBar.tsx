@@ -31,8 +31,6 @@ function SearchBar(props: any) {
                 icon: 'error',
                 title: 'Oops...',
                 text:'No such user',
-                timer: 2500,
-                timerProgressBar: true,
               })
         })
     }
