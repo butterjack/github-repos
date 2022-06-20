@@ -15,7 +15,7 @@
 
   <p align="center">
     <br />
-    <a href="https://warm-nasturtium-d6aa58.netlify.app/">View Demo</a>
+    <a href="https://github-repositories-test.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/butterjack/github-repos/issues">Report Bug</a>
     
