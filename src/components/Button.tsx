@@ -12,7 +12,7 @@ function Button(props: any) {
     else
       return (
         <div
-          className="btn btn-secondary me-3 ms-2"
+          className="btn btn-secondary m-2"
           onClick={props.click ? props.click : null}
           data-testid="button"
         >

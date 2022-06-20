@@ -1,46 +1,117 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Forks][forks-shield]](https://github.com/butterjack/github-repos/network/members)
+[![Stargazers][stars-shield]](https://github.com/butterjack/github-repos/stargazers)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jawher-bouhouch/)
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a>
+    <img src="public/github.png" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h4 align="center">Browse Github Repositories</h4>
 
-### `npm start`
+  <p align="center">
+    <br />
+    <a href="https://warm-nasturtium-d6aa58.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/butterjack/github-repos/issues">Report Bug</a>
+    
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+This project aims to let users search for github repositories of a certain user based on his username.
+This readme is only a quick overview of the project. You can find a more detailed documentation in this gitbook link:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+This project is made using :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React.js](https://reactjs.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+So to get yourself started with the application here is what is needed
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You will need to have the latest npm installed with git also installed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/butterjack/github-repos.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-## Learn More
+<!-- USAGE EXAMPLES -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Create a .env file and add your credentials
+
+   ```sh
+   // contents of .env
+   REACT_APP_ACCESS_TOKEN="...";
+   ```
+
+2. Serve the project to a development server
+   ```sh
+   npm run start
+   ```
+
+<!-- Testing -->
+
+## Testing
+
+To run the test suite run this command
+
+```sh
+npm run test
+```
+
+<!-- Storybooks -->
+
+## Storybooks
+
+Start Storybooks
+
+```sh
+npm run storybook
+```
+
+## Notes and Todos
+
+- The graphql api only permits us to query certain number of repositories. This still an ongoing isuue in github. So I had to choose a limit number: 100.
+  https://github.community/t/graphql-api-how-to-fetch-all-repositories-that-the-current-user-has-access-to/13792
+
+- Although I built unit tests and end-to-end tests, the test suites is basic due to the simplicity of the task
+
+- I used a lot of css formats: inline css, bootstrap and css files. That is because I am not a css wizard so for each case I use what I feel comfortable with. And This part of the project needs to be improved.
+
+## Feedback
+
+This test was really challenging for me for a lot of reasons; I am more focused into backend development and the test was a pure frontend test so keeping everything responsive and implementing a design from scratch took the most time. And as I said above I am not a css wizard, so the css in this project is not well formated.
+
+[contributors-shield]: https://img.shields.io/github/contributors/Dopeamin/github-repositories-fetch.svg?style=for-the-badge
+[contributors-url]: https://github.com/butterjack/github-repos/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/butterjack/github-repos.svg?style=for-the-badge
+[forks-url]: https://github.com/butterjack/github-repos/network/members
+[stars-shield]: https://img.shields.io/github/stars/butterjack/github-repos.svg?style=for-the-badge
+[stars-url]: https://github.com/butterjack/github-reposh/stargazers
+[issues-shield]: https://img.shields.io/github/issues/butterjack/github-repos.svg?style=for-the-badge
+[issues-url]: https://github.com/butterjack/github-repos/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
