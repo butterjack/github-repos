@@ -27,7 +27,7 @@
 ## About The Project
 
 This project aims to let users search for github repositories of a certain user based on his username.
-This readme is only a quick overview of the project. You can find a more detailed documentation in this gitbook link:
+This readme is only a quick overview of the project. You can find a more detailed documentation in this gitbook link: https://jawher-b.gitbook.io/github-repositories/
 
 ### Built With
 

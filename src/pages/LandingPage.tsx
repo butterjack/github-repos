@@ -63,8 +63,18 @@ function LandingPage() {
                     An application to get github repositories for a certain user built with React.
                     </p>
                     <div>
-                        <Button type="primary" text="View Github"></Button>
-                        <Button type="secondary" text="Read Documentation"></Button>
+                        <a
+                            href="https://github.com/butterjack/github-repos"
+                            target="_blank"
+                        >
+                            <Button type="primary" text="View Github"></Button>
+                        </a>
+                        <a
+                            href="https://jawher-b.gitbook.io/github-repositories/"
+                            target="_blank"
+                        >
+                            <Button type="secondary" text="Read Documentation"></Button>
+                        </a>
                     </div>
                     <SearchBar
                         type="owner"

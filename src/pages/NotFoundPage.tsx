@@ -16,7 +16,7 @@ function NotFoundPage() {
                             Sorry, an error has occured, Requested page not found!
                         </div>
                         <div className="error-actions">
-                            <a href="http://www.jquery2dotnet.com" className="btn btn-primary btn-lg">
+                            <a href="https://jawher-b.gitbook.io/github-repositories/" className="btn btn-primary btn-lg">
                                 View Documentation </a>
                         </div>
                     </div>
