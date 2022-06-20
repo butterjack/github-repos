@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import Repository from "../../components/Repository";
 
-test("renders card and modal on click", async () => {
+test("renders repository on click", async () => {
   const repo = {
     updatedAt: new Date(),
     name: "name",

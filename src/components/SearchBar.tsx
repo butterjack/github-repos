@@ -9,6 +9,11 @@ function SearchBar(props: any) {
     const [repositories, setRepositories] = useState([]);
     const MySwal = withReactContent(Swal)
 
+    /**
+     * set isLoading to true
+     * get repositories by username
+     * show alert if error found
+     */
     const search = () =>{
         props.beforeSearch()
         GithubService.getRepositories(searchText)

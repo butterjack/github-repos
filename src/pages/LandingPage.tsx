@@ -22,6 +22,10 @@ function LandingPage() {
         setIsLoading(true);
     }
 
+    /**
+     * filter repositories by their name
+     * @param {ant} event
+     */
     const filterRepositories = (event: any) => {
         console.log(event.target.value, initialRepositories.current)
         if(event.target.value===""){
